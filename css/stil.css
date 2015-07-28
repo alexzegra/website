@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+body{
+	margin:0;
+	padding:0;
+	background-color:black;
+	font-family:Garamond;
+}
+#header{
+	margin:0 auto;
+	width:40%;
+	height:50%;
+	background: transparent url('../poze/poza.jpg') top left no-repeat;
+	background-size:100%;
+	
+}
+.titlu_site{
+	color:red;
+	font-weight:bold;
+	font-family:Shadows Into Light;
+	font-size:50px; 	
+	left:50px;
+	position:relative;
+	top:250px;
+}
+#container{
+	background:grey;
+	margin:0 auto;
+	width:1000px;
+	
+}
+#menu{
+	height:25px;
+	background-color:black;
+	margin:0;
+	padding:5px 0;
+}
+#menu ul{
+	margin:0;
+	padding:2px;
+	height:25px;
+}
+#menu ul li{
+	list-style:none;
+	display:inline;
+	
+}
+#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited{
+	color:white;
+	padding:10px 7px 10px 7px;
+	text-decoration:none;
+	font-weight:bold;
+}
+#menu ul li a:hover{
+	color:white;
+	background-color:orange;
+}
+#content{
+	background-color:white;
+	padding:20px;
+}
+#col_stg{
+	margin:0 auto;
+	width:48%;
+	
+	float:left;
+	padding:2px;
+}
+#col_dr{
+	width:48%;
+	float:left;
+	padding:2px;
+	margin:0 auto;
+	
+}
+#col_clear{
+	clear:both;
+}
+
